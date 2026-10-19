@@ -1,5 +1,7 @@
 package dao;
 
+import java.util.ArrayList;
+
 import model.Employee;
 import model.Product;
 
@@ -11,5 +13,7 @@ public interface Dao {
 
 	public Employee getEmployee(int employeeId, String password);
 	
-	public Product getInvetory(); //First Commit 
+	public ArrayList<Product> getInventory();
+	
+	public boolean writeInventory(ArrayList<Product> inventory);
 }
