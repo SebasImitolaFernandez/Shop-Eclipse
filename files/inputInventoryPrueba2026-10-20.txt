@@ -1,0 +1,2 @@
+Product:Manzana;Wholesaler:10.0;Stock:10;
+Product:Fresa;Wholesaler:5.0;Stock:20;

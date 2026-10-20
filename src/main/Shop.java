@@ -199,6 +199,10 @@ public class Shop {
 		inventory = dao.getInventory();
 		this.showInventory();
 	}
+	
+	public boolean writeInventory() {
+		return dao.writeInventory(inventory);
+	}
 
 	/**
 	 * show current total cash
